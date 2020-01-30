@@ -1,0 +1,70 @@
+.Header{
+    position: relative;
+    padding: 2.5%;
+   background-color: whitesmoke;
+}
+
+.Name{
+   background:whitesmoke;
+   color:black ;
+   font-size: 30px;
+   background-color: lightskyblue;
+    color: white;
+   
+}
+   
+.Namebox{
+    background-color: black;
+}
+
+    
+.About{
+    position: absolute;
+    left: 65%;
+    background-color: whitesmoke;
+    
+    
+}
+
+H2{
+    color: lightskyblue;
+}
+p{
+  font-size: 20px;
+   
+}
+
+.Portfolio{
+    position: absolute;
+    left: 75%;
+    color: black;
+    background-color: whitesmoke;
+
+}
+
+.Contacts{
+    position: absolute;
+    left: 85%;
+    color: black;
+    background-color: whitesmoke;
+
+}
+
+.ContainerMe{
+    background-color: whitesmoke;
+    float: left;
+  margin-top: 30px;
+}
+
+body{
+background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fwhite-marble-desktop&psig=AOvVaw3duI2XYPzY55Yt8PF0TihH&ust=1580452775748000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNik_MvbqucCFQAAAAAdAAAAABAD)
+
+
+
+}
+
+img{
+    height: 200px;
+   float: left;
+   padding-right: 20px;
+}
