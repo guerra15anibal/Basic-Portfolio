@@ -1,65 +1,83 @@
 .Header{
     position: relative;
+    bottom: 27px;
     padding: 2.5%;
    background-color: whitesmoke;
+   
+   
 }
 
 .Name{
    background:whitesmoke;
-   color:black ;
    font-size: 30px;
-   background-color: lightskyblue;
-    color: white;
+   background-color:rgb(15, 194, 179) ;
+   color: white;
+   width: fit-content;
+   padding:15px;
+   padding-bottom: 20px;
    
 }
    
 .Namebox{
-    background-color: black;
+    height: 100px;
+ padding-bottom: 0px;
+
 }
 
     
 .About{
-    position: absolute;
-    left: 65%;
+    position: relative;
+    left: 55%;
     background-color: whitesmoke;
+    
+   
     
     
 }
 
 H2{
-    color: lightskyblue;
+    color: rgb(15, 194, 179);
+    padding-left: 20px;
 }
 p{
   font-size: 20px;
-   
+   padding-bottom: 100pxS;
 }
 
 .Portfolio{
-    position: absolute;
-    left: 75%;
-    color: black;
+    position: relative;
+    left: 65%;
     background-color: whitesmoke;
+    
+   
 
 }
 
 .Contacts{
-    position: absolute;
-    left: 85%;
-    color: black;
+   position: relative;
+    left: 75%;
     background-color: whitesmoke;
+  
+    
 
 }
 
-.ContainerMe{
+.Me{
     background-color: whitesmoke;
-    float: left;
-  margin-top: 30px;
+    margin-top: 20px;  
+    height: 500px;
+    width: 1000px;
+  position: relative;
+  left: 20%;
+  
 }
 
 body{
-background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fwhite-marble-desktop&psig=AOvVaw3duI2XYPzY55Yt8PF0TihH&ust=1580452775748000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNik_MvbqucCFQAAAAAdAAAAABAD)
-
-
+background-color: whitesmoke;
+padding-top: 20px;
+padding-left: 40px;
+padding-right: 40px;
+word-spacing: 5px;
 
 }
 
@@ -67,4 +85,5 @@ img{
     height: 200px;
    float: left;
    padding-right: 20px;
+   padding-left: 20px;
 }
