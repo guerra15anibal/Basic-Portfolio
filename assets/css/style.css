@@ -1,89 +1,63 @@
-.Header{
-    position: relative;
-    bottom: 27px;
-    padding: 2.5%;
-   background-color: whitesmoke;
-   
-   
-}
-
-.Name{
-   background:whitesmoke;
-   font-size: 30px;
-   background-color:rgb(15, 194, 179) ;
-   color: white;
-   width: fit-content;
-   padding:15px;
-   padding-bottom: 20px;
-   
-}
-   
-.Namebox{
-    height: 100px;
- padding-bottom: 0px;
-
-}
-
-    
 .About{
     position: relative;
-    left: 55%;
-    background-color: whitesmoke;
+    display: inline-block;
+    color: lightgrey;
+    text-align: bottom;
+    margin-left: 100px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    }
     
-   
-    
-    
-}
-
-H2{
-    color: rgb(15, 194, 179);
-    padding-left: 20px;
-}
-p{
-  font-size: 20px;
-   padding-bottom: 100pxS;
-}
 
 .Portfolio{
     position: relative;
-    left: 65%;
-    background-color: whitesmoke;
-    
-   
-
+     display: inline-block;
+    color: lightgrey;
+    text-align: bottom;
+    margin-left: 100px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Contacts{
    position: relative;
-    left: 75%;
-    background-color: whitesmoke;
-  
+   display: inline-block;
+   color: lightgrey;
+   text-align: bottom;
+   margin-left: 100px;
+   padding: 14px 16px;
+   text-decoration: none; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    float: right;
+    position: relative;;
+}
+
+h1{
+    color: white;
+    background-color: lightseagreen;
     
-
 }
 
-.Me{
-    background-color: whitesmoke;
-    margin-top: 20px;  
-    height: 500px;
+.written{
     width: 1000px;
-  position: relative;
-  left: 20%;
-  
 }
 
-body{
-background-color: whitesmoke;
-padding-top: 20px;
-padding-left: 40px;
-padding-right: 40px;
-word-spacing: 5px;
-
+h2{
+    color: white;
+    background-color: lightseagreen;
 }
 
 img{
     height: 200px;
-   float: left;
-   padding-right: 20px;
-   padding-left: 20px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
 }
+
+
+   
