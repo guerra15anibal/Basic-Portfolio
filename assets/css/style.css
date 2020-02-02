@@ -1,55 +1,77 @@
+.Header{
+    background-color: #ffffff;
+    padding-left: 26%;
+    padding-top: 50px;
+}
+
 .About{
     position: relative;
     display: inline-block;
-    color: lightgrey;
+    color: #777777;
     text-align: bottom;
     margin-left: 100px;
-    padding: 14px 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     }
     
 
 .Portfolio{
     position: relative;
      display: inline-block;
-    color: lightgrey;
-    text-align: bottom;
+    color: #777777;
     margin-left: 100px;
-    padding: 14px 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .Contacts{
    position: relative;
    display: inline-block;
-   color: lightgrey;
-   text-align: bottom;
+   color: #777777;
    margin-left: 100px;
-   padding: 14px 16px;
    text-decoration: none; 
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Courier New', Courier, monospace;
 }
 
 nav{
-    float: right;
-    position: relative;;
+    background: #ffffff;
+     text-align: right;
+     width: 960px;
+   
+
 }
 
 h1{
     color: white;
-    background-color: lightseagreen;
-    
-}
-
-.written{
-    width: 1000px;
+    background-color:#4aaaa5 ;
+    width: 240px;
+    padding: 20px;
 }
 
 h2{
-    color: white;
-    background-color: lightseagreen;
+    color: #4aaaa5;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.container{
+    width: 960px;
+    margin-top: 200px;
+    margin-left: 26%;
+    background-color:#ffffff;
+    clear: both;
+    overflow: 0 auto;
+    padding-bottom: 10px; 
+    height: 300px;  
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/e5/6b/63/e56b63d12e334969433055bf078e457f.jpg);
+}
+
+p{
+    color: #777777;
+    text-align: justify;
 }
 
 img{
@@ -58,6 +80,13 @@ img{
     padding-right: 20px;
     padding-left: 20px;
 }
-
-
-   
+footer{
+    margin-top: 285px;
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: #4aaaa5;
+    border-top: 10cm;
+    border-color: #666666;
+    text-align: center;
+}
