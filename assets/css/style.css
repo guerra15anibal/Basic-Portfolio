@@ -5,41 +5,31 @@
 }
 
 .About{
-    position: relative;
-    display: inline-block;
     color: #777777;
-    text-align: bottom;
     margin-left: 100px;
-    text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    }
+}
     
 
 .Portfolio{
-    position: relative;
-     display: inline-block;
     color: #777777;
     margin-left: 100px;
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 .Contacts{
-   position: relative;
-   display: inline-block;
-   color: #777777;
-   margin-left: 100px;
-   text-decoration: none; 
-   font-family: 'Courier New', Courier, monospace;
+    color: #777777;
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 nav{
     background: #ffffff;
-     text-align: right;
-     width: 960px;
-   
-
+    margin-top: -50px;
+    margin-left: 450px;
+    padding-bottom: 9px;  
 }
+
 
 h1{
     color: white;
@@ -52,41 +42,108 @@ h2{
     color: #4aaaa5;
     margin-left: 10px;
     margin-bottom: 0px;
+    font-size: 40px;
 }
 
 .container{
-    width: 960px;
-    margin-top: 200px;
+    width: 940px;
     margin-left: 26%;
     background-color:#ffffff;
-    clear: both;
-    overflow: 0 auto;
-    padding-bottom: 10px; 
-    height: 300px;  
+    padding-right: 20px;
+    height: 600px;
 }
 
 body{
-    background-image: url(https://i.pinimg.com/originals/e5/6b/63/e56b63d12e334969433055bf078e457f.jpg);
+    background-image: url("../images/background.png");
+    border-bottom: 10px solid #4aaaa5;
+    height: 1095px;
+    
 }
 
 p{
     color: #777777;
-    text-align: justify;
+    line-height: 30pt;
 }
 
-img{
-    height: 200px;
+.bio-image{
+    height: 300px;
     float: left;
     padding-right: 20px;
     padding-left: 20px;
 }
+
+img{
+    height: 150px;
+    border-bottom: #4aaaa5 solid 40px;
+}
+
 footer{
     margin-top: 285px;
     height: 100px;
     width: 100%;
     color: white;
-    background-color: #4aaaa5;
-    border-top: 10cm;
-    border-color: #666666;
+    background-color: #666666;
     text-align: center;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    top: -8px;
+    margin-top: 20px;
+}
+
+.contactform {
+    position: relative;
+      text-align: center;
+      width: 960px;
+      top: 30px;
+      margin-left: 125px;
+      margin-bottom: 50px;
+      padding-left: 20px;
+}
+
+.form-container {
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 600px;
+    width: 960px;
+    margin-right: 435px;
+
+
+}
+
+#name,#email,#textfield{
+    width: 900px;
+    height: 40px;
+    font-size: 20px;
+
+}
+
+#textfield{
+    height: 300px;
+}
+
+#contact{
+    margin: 20px;
+}
+
+#portfolio-container {
+    position: relative;
+    text-align: left;
+    width: 960px;
+    margin-top: 70px;
+    margin-left: 26%;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    height: 600px;
+}
+
+label{
+    color: #777777;
 }

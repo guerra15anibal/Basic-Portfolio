@@ -13,6 +13,7 @@
 
     <div class="Header">
         <h1>Anibal Guerra</h1>
+
         <nav>
             <a class="About" href="index.html">About<a>
                     <a class="Portfolio" href="portfolio.html">Portfolio</a>
@@ -24,49 +25,30 @@
 
 </head>
 
-
-
-<br>
-<br>
-<hr>
-
-
-<H2>Contact</H2>
-
 <body>
-    <form action="index.html" method="GET">
+
+    <br><br>
 
 
-        <div class="Contact" <label for="name">Name</label>
-            <input type="name" name="name" id="name" placeholder="John Smith" required>
-
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
-
-            <label for="message">Message</label>
-            <input type="message" name="message" id="message" required>
-
+    <div class="form-container">
+        <section id="contactform">
+            <h2>Contact</h2>
             <hr>
-
-            <div> <button type="submit">Submit</button>
-            </div>
-
-
-    </form>
-
-
-
-
-
+            <form id="contact" action="login.php" method="post">
+                <label for="name">Name</label><br>
+                <input id="name" type="text" autocomplete="username" placeholder="John Doe" required><br>
+                <label for="email">Email</label><br>
+                <input id="email" type="email" name="email" autocomplete="email" placeholder="example@gmail.com"
+                    required><br>
+                <label for="textfield">Message</label><br>
+                <textarea id="textfield" rows="7"></textarea><br>
+                <button class="button" type="submit" name="submit">Submit</button>
+            </form>
+        </section>
 
     </div>
 
-
-
-
-
-
-
-    <body>
+    <footer>&copy; Anibal Guerra 2020</footer>
+</body>
 
 </html>
