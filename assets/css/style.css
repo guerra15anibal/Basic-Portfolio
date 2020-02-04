@@ -73,8 +73,7 @@ p{
 }
 
 img{
-    height: 150px;
-    border-bottom: #4aaaa5 solid 40px;
+    height: 300px;
 }
 
 footer{
@@ -146,4 +145,8 @@ footer{
 
 label{
     color: #777777;
+}
+
+.gaming{
+    height: 250px;
 }
